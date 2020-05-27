@@ -13,7 +13,7 @@ export SPOTIPY_REDIRECT_URI='http://localhost/'
 After that, in a browser, open websynths.com beside the running program, go to tuning and set the number of keys to 12.
 Also under tuning set "key" to "none" and then change the pitch system from "equal-tempered" to "manual".
 
-Now in the terminal find the song of your choice and select "Audio Analysis (Low-Level)"
+Now in the terminal find the song of your choice and select "Audio Analysis (Low-Level)". 
 Right after selecting that, move your cursor to and select the browser window with websynths open and wait 5 seconds.
 
 The modified script takes the relevant data from the low level audio analysis and uses that to determine what keys to press.
